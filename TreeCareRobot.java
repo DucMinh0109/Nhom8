@@ -11,4 +11,11 @@ public class TreeCareRobot extends Robot implements FarmingRobot {
     public void process() {
         System.out.println(this.getId() + " is processing fruits for delivery.");
     }
+    public void waterPlants() {
+        System.out.println(this.getId() + " is watering the plants.");
+    }
+
+    public void pruneTrees() {
+        System.out.println(this.getId() + " is pruning the trees.");
+    }
 }

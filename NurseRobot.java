@@ -6,6 +6,6 @@ public class NurseRobot extends Robot implements MedicalRobot {
     }
 
     public void care() {
-        System.out.println("Assisting in medical care.");
+        System.out.println(this.getId() + "is assisting in medical care.");
     }
 }
