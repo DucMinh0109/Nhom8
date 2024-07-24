@@ -19,6 +19,18 @@ public class Team {
         System.out.println("***************WELCOME TO***************");
         System.out.println("****************" + this.teamName + "*****************");
     }
+
+    public String getTeamName() {
+        return teamName;
+    }
+
+    public void setTeamName(String teamName) {
+        this.teamName = teamName;
+    }
+
+    public List<Robot> getRobots() {
+        return robots;
+    }
 }
 
 
