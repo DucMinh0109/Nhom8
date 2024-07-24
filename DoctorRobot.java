@@ -6,6 +6,9 @@ public class DoctorRobot extends Robot implements MedicalRobot {
     }
 
     public void care() {
-        System.out.println("Providing medical care.");
+        System.out.println(this.getId() + " is providing medical care.");
+    }
+    public void performSurgery() {
+        System.out.println(this.getId() + " is performing surgery.");
     }
 }
