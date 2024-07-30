@@ -1,6 +1,9 @@
-package baiTapNhom;
+package com.robotics.management;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import com.robotics.core.Robot;
 
 public class Team {
     private String teamName;
@@ -32,5 +35,4 @@ public class Team {
         return robots;
     }
 }
-
 
