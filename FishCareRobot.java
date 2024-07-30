@@ -1,4 +1,7 @@
-package baiTapNhom;
+package com.robotics.robots.agriculture;
+
+import com.robotics.core.Robot;
+
 public class FishCareRobot extends Robot implements FarmingRobot {
     public FishCareRobot(String id) {
         super(id, "FishCare");
