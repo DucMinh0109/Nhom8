@@ -1,4 +1,4 @@
-package baiTapNhom;
+package com.robotics.core;
 
 public class Robot {
 	private String id;
