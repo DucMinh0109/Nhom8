@@ -1,4 +1,6 @@
-package baiTapNhom;
+package com.robotics.robots.healthcare;
+
+import com.robotics.core.Robot;
 
 public class DoctorRobot extends Robot implements MedicalRobot {
     public DoctorRobot(String id) {
