@@ -1,4 +1,7 @@
-package baiTapNhom;
+package com.robotics.robots.agriculture;
+
+import com.robotics.core.Robot;
+
 public class TreeCareRobot extends Robot implements FarmingRobot {
     public TreeCareRobot(String id) {
         super(id, "TreeCare");
